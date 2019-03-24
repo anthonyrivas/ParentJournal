@@ -1,0 +1,21 @@
+{
+    "extends": [
+        "react-app",
+        "prettier",
+        "prettier/react",
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
+    "env": {
+        "browser": true
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "rules": {
+        "semi": 2,
+        "no-console": 1
+    }
+}
